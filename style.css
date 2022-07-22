@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700&display=swap&subset=cyrillic");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: 100%;
+  font-family: "Open Sans", "Tahoma", sans-serif;
+  text-align: center;
+  background-color: #f8f7f5;
+}
+
+header {
+  padding: 10px 0;
+}
+
+
+.content-wrapper,
+main {
+  width: 100%;
+  background-color: white;
+}
+
+
+.content {
+  margin: 0 auto;
+  /* width: 80%; */
+  max-width: 1030px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  
+}
+
+h1,
+h2,
+header {
+  font-family: "Gilroy", "Tahoma", sans-serif;
+  color: indigo;
+}
+
+h2,
+h1 {
+  font-weight: bold;
+  color: indigo;
+
+}
+
+h1 {
+  margin: 0 0 20px 0; 
+  font-size: 330%;
+  line-height: 110%;
+}
+
+h2 {
+  margin-top: 60px;
+} 
+
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  list-style: none;
+  color:black;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header p,
+.header p a,
+a {
+  color: black;
+}
+
+.common {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;  
+}
+
+.common a {
+  text-decoration:none;
+  border: 2px solid indigo;
+  background-color: indigo;;
+  color: white;
+  padding: 10px 5px;
+}
+
+.abilities {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+
+}
+
+.skills_wrapper p {
+  background-color: green;
+  color: white;
+  border: 2px solid green;
+  border-radius:10px;
+  padding: 10px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.contacts li {
+    padding-right: 15px;
+}
+
+.linkedin {
+  width: 24px;
+}
+
+nav a {
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+.examples {
+  margin: 0 auto;
+  width: 30%;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  
+}
+
+.footer {
+	border-top: 1px solid grey;
+ }
